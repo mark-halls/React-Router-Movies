@@ -31,7 +31,6 @@ const Movie = props => {
   }
 
   const { title, director, metascore, stars } = movie;
-  console.log(stars);
   return (
     <div className="save-wrapper">
       <div className="movie-card">
